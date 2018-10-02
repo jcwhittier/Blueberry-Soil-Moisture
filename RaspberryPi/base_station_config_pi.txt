@@ -1,0 +1,5 @@
+DataMode:::LiveData
+SerialPort:::/dev/ttyUSB0
+LogPath:::/media/usb-flash/log/
+URL:::<YOUR WEB SERVICE>
+Key:::<YOUR KEY>

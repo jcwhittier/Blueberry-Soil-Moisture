@@ -1,0 +1,3 @@
+DataMode:::DummyData
+URL:::<YOUR WEB SERVICE>
+Key:::<YOUR KEY>

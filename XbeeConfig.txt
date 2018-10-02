@@ -1,0 +1,17 @@
+Base Station:
+ATBD 3 		[set baud rate to 9600]
+ATID 4843
+ATMY 0 		[set Source Address to 0x00]
+ATDT FFFF 	[set Destination Address to 0xFFFF] 
+ATRR 3 		[set number of Retries to 3] 
+ATWR 		[write the config and save]
+
+
+Sensor Nodes: 
+ATBD 3 		[set baud rate to 9600]
+ATMY NODEID 	[sensor node number]
+ATID 4843
+ATDT 0 		[set Destination Address to 0x00] 
+ATRR 3 		[set number of Retries to 3] 
+ATSM 1 		[1 IS TO enable pin sleep]
+ATWR 		[write the config and save]
